@@ -11,6 +11,20 @@ The project is built in stages:
 3. **Evaluation** — a test set of question/answer/keyword triples (`evaluation/tests.jsonl`) scored with retrieval metrics (MRR, NDCG, keyword coverage) and an LLM-as-a-judge for accuracy, completeness, and relevance.
 4. **Advanced ("pro") RAG** — a from-scratch implementation with LLM-based semantic chunking (headline + summary + original text per chunk), query rewriting, dual retrieval (original + rewritten query), and LLM re-ranking of retrieved chunks before generation.
 
+## Application Preview
+
+### Chat Interface
+
+<p align="center">
+  <img src="asset/insurellm_output_1_chat.png" alt="InsureLLM Chat Interface" width="900">
+</p>
+
+### Terminal Output
+
+<p align="center">
+  <img src="asset/insurellm_output_2_terminal.png" alt="InsureLLM Terminal Output" width="900">
+</p>
+
 ## Files
 
 | File / Folder | Description |
